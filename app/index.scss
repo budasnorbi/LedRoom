@@ -1,0 +1,46 @@
+@import './scss/fontMixin';
+
+*,*::before,*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+hr{
+	display: block;
+}
+
+ol,ul {
+	list-style: none
+}
+
+html{
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: linear-gradient(45deg, #12c2e9 0%,#c471ed 50%,#f7797d 100%); 
+}
+
+img,span{
+	display: block;
+}
+
+.link{
+	width:90%;
+}
+
+.lcd{
+	font-family: 'lcd phone';
+	letter-spacing: .5px;
+	font-size: 3rem !important;
+}
